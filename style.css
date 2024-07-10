@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+p {
+  font-size: 20px;
+}
+
+a, .btn {
+  transition: all 300ms ease-in-out;
+}
+
+nav {
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+
+nav ul {
+  display: flex; 
+  gap: 2rem;
+  list-style-type: none; 
+  font-size: 1.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 0, 0); /
+}
+
+.logo {
+  font-size: 2rem;
+  cursor: default;
+}
+
